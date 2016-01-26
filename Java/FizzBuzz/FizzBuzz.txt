@@ -1,0 +1,15 @@
+Problem: FizzBuzz
+Language: Java
+
+Quick Description: 
+
+Ask for a number greater than 10. Print all numbers from 1 to whatever number the user enters. For multiples of three print “Fizz”; for multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
+
+
+Detailed Description:
+1) Ask the user to enter a number greater than 15 (I chose 15 because this will give us at least one Fizz, Buzz, and FizzBuzz).
+2) Store that number in a variable.
+3) Print all numbers from 1 to the user's number. (Hint: Try to implement these steps first, ensure it is working, then move on to the next steps.)
+4) If a number is a multiple of 3, have the program print the word "Fizz".
+5) If a number is a multiple of 5, have the program print the word "Buzz".
+6) If a number is a multiple of both 3 AND 5, have the program print "FizzBuzz".

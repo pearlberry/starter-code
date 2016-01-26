@@ -1,0 +1,15 @@
+Problem: Reverse a String
+Language: Java
+
+Quick Description: 
+
+Ask the user for a string. Now, reverse it!
+
+
+Detailed Description:
+1) Ask the user to enter a String (any length).
+2) Store that String in a variable.
+3) Now, we want to take that String and print it in reverse.
+	Ex. If the user enters "Strings are the coolest", the program will print "tselooc eht era sgnirtS"
+4) There are a variety of ways to do this. (Hint: I used Java's built-in StringBuffer method. Check out some of the resources I linked to in the main ReadMe for more information on this method.)
+5) Print the reversed String.

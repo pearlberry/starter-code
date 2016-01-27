@@ -1,0 +1,17 @@
+Problem: NumberGuessing
+Language: Java
+
+Quick Description: 
+
+Number guessing game where the program picks a random number between 0 and 100. The user must guess the number in 10 tries or less.
+
+
+Detailed Description:
+1) Have the program generate a random number between 0 and 100 (Hint: Use Java's Random method)
+2) The user is only allowed to make 10 guesses, so the program should only run while the amount of guesses is between 0 and 10.
+3) Prompt the user to make a guess and read the input from the user.
+4) (Optional) Check to see if their guess is within the range of 0 to 100. If not, ask them to enter a number in the correct range. (This is optional, but since the program will only generate a number between 0 and 100, this alerts the user if they are entering a number outside of that range.)
+5) Check to see if they guessed correctly. If so, print out a congratulatory message and exit the program.
+6) If they did not guess correctly, check to see if their guess is lower than the correct number. If so, print a message telling them their guess is too low and to try again.
+7) Do the same as step 6, but check if the guess is higher than the correct number.
+8) Make sure to exit the program and tell the user if they have guessed too many times.

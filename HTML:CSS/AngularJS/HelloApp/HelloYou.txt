@@ -1,0 +1,14 @@
+Problem: Hello Angular App
+Language: HTML
+
+Quick Description: 
+
+Using Angular JS, take input from the user and display "Hello" + whatever the user types.
+
+
+Detailed Description:
+1) Use <html ng-app> to start your HTML page, which starts the Angular JS process.
+2) Include Angular JS in the <head>.
+3) Within the body, create an input area that asks the user to enter their name.
+4) Tell Angular JS to set up data binding by using ng-model="yourName" on the input area.
+5) Print "Hello" + {{ yourName }} !

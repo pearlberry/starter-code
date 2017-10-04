@@ -12,26 +12,36 @@ public class FizzBuzz {
 
     public static void main(String[] args) {
         //Initializes the Scanner - this creates a new Scanner object which I called 'scan'.
+        //As noted above, this is a Java library that makes it easy to read input from a user.
         Scanner scan = new Scanner(System.in);
+
         //Prompts the user to enter a number.
         System.out.println("Enter a number greater than 15!");
+
         //Waits for the user to enter an integer.
         int input = scan.nextInt();
+
         //When the user enters a number, determines if the number meets any of our criteria.
         //For loop: starts at 1, runs loop until it reaches the user's number
         for (int i = 1; i <= input; i++) {
+
             //Checks if number is multiple of both 3 AND 5, prints FizzBuzz
+            //Note that I check for this first - otherwise, the program would check for 3 OR 5 first,
+            //thus never making it to this step.
             if(i % 3 == 0 && i % 5 == 0){
                 System.out.println("FizzBuzz");
             }
+
             //Checks if number is multiple of 3
             else if(i % 3 == 0){
                 System.out.println("Fizz");
             }
+
             //Checks if number is multiple of 5
             else if(i % 5 == 0){
                 System.out.println("Buzz");
             }
+
             //If number is not multiple of 3 and/or 5, just prints the number.
             else{
                 System.out.println(i);

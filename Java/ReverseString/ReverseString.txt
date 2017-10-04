@@ -1,5 +1,6 @@
 Problem: Reverse a String
 Language: Java
+Difficulty: Medium
 
 Quick Description: 
 
@@ -13,3 +14,5 @@ Detailed Description:
 	Ex. If the user enters "Strings are the coolest", the program will print "tselooc eht era sgnirtS"
 4) There are a variety of ways to do this. (Hint: I used Java's built-in StringBuffer method. Check out some of the resources I linked to in the main ReadMe for more information on this method.)
 5) Print the reversed String.
+
+- The objective of this problem is to use your googling skills and find an easy way to do this!
